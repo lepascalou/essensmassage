@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Page d'accueil -->
+  <url>
+    <loc>https://essensmassage.fr/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://essensmassage.fr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://essensmassage.fr/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://essensmassage.fr/" />
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Page anglaise -->
+  <url>
+    <loc>https://essensmassage.fr/en/</loc>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://essensmassage.fr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://essensmassage.fr/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://essensmassage.fr/" />
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+</urlset>
+
+

@@ -1,0 +1,24 @@
+{
+  "name": "essensmassage",
+  "version": "1.0.0",
+  "description": "EssensMassage - Professional massage services website",
+  "type": "module",
+  "scripts": {
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "cleancss -o src/css/bootstrap.purged.last.min.css src/css/bootstrap.purged.last.css && cleancss -o src/css/bootstrap.purged.min.css src/css/bootstrap.purged.css",
+    "build:js": "esbuild src/js/custom.js --outfile=src/js/custom.min.js --minify",
+    "dev": "npm run watch:css & npm run watch:js",
+    "watch:css": "chokidar 'src/css/**/*.css' -c 'npm run build:css'",
+    "watch:js": "chokidar 'src/js/**/*.js' -c 'npm run build:js'",
+    "format": "prettier --write index.html en/index.html src/**/*.css src/**/*.js"
+  },
+  "keywords": ["massage", "tuina", "relaxation"],
+  "author": "Pascal Piallat",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "esbuild": "^0.21.0",
+    "chokidar-cli": "^3.0.0",
+    "prettier": "^3.0.0"
+  }
+}
