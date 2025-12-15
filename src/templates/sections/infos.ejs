@@ -1,0 +1,113 @@
+<section
+  id="infos"
+  class="py-5 min-vh-100 d-flex align-items-center bg-dark bg-opacity-25"
+>
+  <div class="container px-4 py-5">
+    <h2 class="pb-2 text-white text-center"><%= t.infos.heading %></h2>
+    <div
+      class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 justify-content-center"
+    >
+      <div class="col">
+        <div class="card h-100 overflow-hidden text-bg-light rounded-4">
+          <div class="d-flex flex-column h-100 p-5 text-white">
+            <h3
+              class="card-header text-center"
+              aria-label="<%= t.infos.location.ariaLabel %>"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                fill="currentColor"
+                class="bi bi-compass"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016m6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"
+                />
+                <path
+                  d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z"
+                />
+              </svg>
+            </h3>
+            <div class="card-body">
+              <ul class="card-text">
+                <% t.infos.location.items.forEach((item) => { %>
+                  <li><%= item %></li>
+                <% }); %>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 overflow-hidden text-bg-light rounded-4">
+          <div
+            class="d-flex flex-column h-100 p-5 text-white text-shadow-1"
+          >
+            <h3
+              class="card-header text-center"
+              aria-label="<%= t.infos.details.ariaLabel %>"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                fill="currentColor"
+                class="bi bi-info-circle"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                />
+                <path
+                  d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+                />
+              </svg>
+            </h3>
+            <div class="card-body">
+              <ul class="card-text">
+                <% t.infos.details.items.forEach((item) => { %>
+                  <li><%= item %></li>
+                <% }); %>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 overflow-hidden text-bg-light rounded-4">
+          <div
+            class="d-flex flex-column h-100 p-5 text-white text-shadow-1"
+          >
+            <h3
+              class="card-header text-center"
+              aria-label="<%= t.infos.hours.ariaLabel %>"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                fill="currentColor"
+                class="bi bi-clock"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"
+                />
+                <path
+                  d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"
+                />
+              </svg>
+            </h3>
+            <div class="card-body text-center">
+              <p class="card-text">
+                <%= t.infos.hours.text %>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

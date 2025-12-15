@@ -1,14 +1,22 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import ejs from "ejs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const prodDir = path.join(__dirname, "..", "prod");
+const rootDir = path.join(__dirname, "..");
+const prodDir = path.join(rootDir, "prod");
+
+// Load language files
+const frContent = JSON.parse(
+  fs.readFileSync(path.join(rootDir, "src/templates/content/fr.json"), "utf8")
+);
+const enContent = JSON.parse(
+  fs.readFileSync(path.join(rootDir, "src/templates/content/en.json"), "utf8")
+);
 
 // Files and folders to copy
 const filesToCopy = [
-  "index.html",
-  "en/index.html",
   "favicon-light.ico",
   "favicon-dark.ico",
   "sitemap.xml",
@@ -43,6 +51,20 @@ function copyFolder(src, dest) {
   });
 }
 
+// Render HTML from template
+function renderTemplate(lang, content) {
+  const templatePath = path.join(rootDir, "src/templates/layout.ejs");
+  const assetPath = lang === "fr" ? "" : "..";
+  const templateContent = fs.readFileSync(templatePath, "utf8");
+  
+  return ejs.render(templateContent, {
+    lang,
+    t: content,
+    assetPath,
+    filename: templatePath,
+  });
+}
+
 // Clean prod directory
 if (fs.existsSync(prodDir)) {
   fs.rmSync(prodDir, { recursive: true });
@@ -51,9 +73,20 @@ fs.mkdirSync(prodDir);
 
 console.log("📦 Building production folder...");
 
+// Generate HTML files from templates
+console.log("🔨 Rendering templates...");
+const frHtml = renderTemplate("fr", frContent);
+fs.writeFileSync(path.join(prodDir, "index.html"), frHtml);
+console.log("✓ French version (index.html)");
+
+const enHtml = renderTemplate("en", enContent);
+fs.mkdirSync(path.join(prodDir, "en"), { recursive: true });
+fs.writeFileSync(path.join(prodDir, "en/index.html"), enHtml);
+console.log("✓ English version (en/index.html)");
+
 // Copy individual files
 filesToCopy.forEach((file) => {
-  const src = path.join(__dirname, "..", file);
+  const src = path.join(rootDir, file);
   if (fs.existsSync(src)) {
     const dest = path.join(prodDir, file);
     copyFile(src, dest);
@@ -63,7 +96,7 @@ filesToCopy.forEach((file) => {
 
 // Copy folders
 foldersToCopy.forEach((folder) => {
-  const src = path.join(__dirname, "..", folder);
+  const src = path.join(rootDir, folder);
   const dest = path.join(prodDir, folder);
   if (fs.existsSync(src)) {
     copyFolder(src, dest);
@@ -73,3 +106,4 @@ foldersToCopy.forEach((folder) => {
 
 console.log("\n✅ Production build ready in ./prod/");
 console.log("📤 You can now upload the contents of ./prod/ to your web hosting");
+

@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Soins",
+    "about": "A propos",
+    "infos": "Infos pratiques",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "otherLang": "En"
+  },
+  "meta": {
+    "title": "Expert à domicile en massage tuina, sportif ou relaxant",
+    "description": "Pascal Piallat, masseur expérimenté à Courchevel et Lasalle : massages Tuina, sportifs, après-ski ou relaxants. Réservez maintenant !",
+    "ogTitle": "Essensmassage, expert en massage tuina, sportif ou relaxant",
+    "ogDescription": "Pascal Piallat, masseur expérimenté à Courchevel et Lasalle : massages Tuina, sportifs, après-ski ou relaxants. Réservez maintenant !"
+  },
+  "schema": {
+    "description": "Pascal Piallat, masseur expérimenté à Courchevel et Lasalle : massages Tuina, sportifs, après-ski ou relaxants. Réservez maintenant !",
+    "slogan": "Toucher d'excellence – EssensMassage",
+    "catalogName": "Massages et soins",
+    "serviceNames": {
+      "tuina": "Massage Tuina",
+      "sports": "Massage sportif",
+      "relaxing": "Massage relaxant"
+    },
+    "serviceDescriptions": {
+      "tuina": "Pratique issue de la médecine traditionnelle chinoise combinant pressions, étirements, frottements et mobilisations. Permet de traiter tensions, douleurs et déséquilibres énergétiques avec efficacité.",
+      "sports": "Adapté pour les personnes pratiquant une activité sportive. Améliore la récupération, soulage les lourdeurs et prévient les blessures grâce à des techniques de massage profondes et dynamiques.",
+      "relaxing": "Un moment de pure relaxation. Mouvements doux et apaisants, appuyés et profonds, afin de retrouver sérénité et équilibre corps / esprit."
+    },
+    "inLanguage": "fr"
+  },
+  "hero": {
+    "title": "EssensMassage",
+    "subtitle": "Toucher d'excellence",
+    "ariaLabel": "Aller aux services",
+    "ctaHash": "#soins"
+  },
+  "services": {
+    "heading": "Massages",
+    "tuina": {
+      "title": "Tuina",
+      "description": "Pratique issue de la médecine traditionnelle chinoise combinant pressions, étirements, frottements et mobilisations. Permet de traiter tensions, douleurs et déséquilibres énergétiques avec efficacité.",
+      "cta": "Réserver"
+    },
+    "sports": {
+      "title": "Sportif",
+      "description": "Adapté pour les personnes pratiquant une activité sportive. Améliore la récupération, soulage les lourdeurs et prévient les blessures grâce à des techniques de massage profondes et dynamiques.",
+      "cta": "Réserver"
+    },
+    "relaxing": {
+      "title": "Relaxant",
+      "description": "Un moment de pure relaxation. Mouvements doux et apaisants, appuyés et profonds, afin de retrouver sérénité et équilibre corps / esprit.",
+      "cta": "Réserver"
+    }
+  },
+  "about": {
+    "heading": "Présentation",
+    "bio": "L'envie de masser et de pratiquer des soins est née en 2004 lors d'un voyage en outremer. Au fil des années j'ai développé une expérience basée sur l'écoute, la présence et la précision. Ma pratique s'est affinée au contact d'enseignants qualifiés et d'une patientèle nombreuse et variée.",
+    "educationTitle": "Formations",
+    "education": [
+      {
+        "year": "2004",
+        "description": "initiation au reiki (2nd degré) avec <a href=\"https://www.isabellelaroche.com/\">Isabelle Laroche</a> à Calvisson (Gard)"
+      },
+      {
+        "year": "2005 - 2008",
+        "description": "stages de réflexologie, de magnétisme et de développement personnel à Moissac (Tarn)"
+      },
+      {
+        "year": "2008",
+        "description": "initiation à la méditation, au yoga et à l'ayurvéda à <a href=\"https://www.phoolchattiyoga.com/\">Rishikesh</a> et à <a href=\"https://amma.org/groups-centres/amritapuri/\">Amritapuri</a> en Inde"
+      },
+      {
+        "year": "2009 - 2011",
+        "description": "formation EssentialTouch certifiée (plus de 900 heures de pratique) avec <a href=\"https://terapidervirker.dk/\"> Kasha Hansen</a> à Copenhague (Danemark)"
+      },
+      {
+        "year": "2014 - 2019",
+        "description": "études de médecine chinoise à l'institut <a href=\"https://liangshen.org/\">Liang Shen</a> de Genève. Diplôme de Tuina en 2017"
+      },
+      {
+        "year": "2024 - 2025",
+        "description": "stages d'introduction au chamanisme avec <a href=\"https://www.academiedemeditation.com/\">Cendrine Escallier</a> (Montpellier) et <a href=\"https://www.yakoruna.com/\">Rachel Willay</a> (Iquitos, Pérou)"
+      }
+    ]
+  },
+  "infos": {
+    "heading": "Infos pratiques",
+    "location": {
+      "ariaLabel": "Localisation des massages",
+      "items": [
+        "Hiver : Courchevel (73)",
+        "Reste de l'année : Lasalle (30)"
+      ]
+    },
+    "details": {
+      "ariaLabel": "Matériel et durée du massage",
+      "items": [
+        "Huile de massage à l'arnica, ou huile d'amande douce bio",
+        "Durée d'une séance: 30 minutes, 45 minutes, 1 heure"
+      ]
+    },
+    "hours": {
+      "ariaLabel": "Horaires des massages",
+      "text": "Tous les jours de 10h à 20h sur RDV uniquement"
+    }
+  },
+  "contact": {
+    "heading": "Prendre RDV",
+    "ariaLabel": "Prendre rendez-vous pour un massage",
+    "name": "Pascal Piallat",
+    "phone": "06 52 32 08 01",
+    "email": "rdv@essensmassage.fr",
+    "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44823.26876761229!2d6.549931788006789!3d45.40017781631377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4789798f434b9715%3A0x1b717b179072a046!2sEssensMassage!5e0!3m2!1sfr!2sfr!4v1759524214330!5m2!1sfr!2sfr\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\" title=\"GMapsEmbed\"></iframe>"
+  },
+  "faq": {
+    "heading": "Questions",
+    "questions": [
+      {
+        "id": "One",
+        "question": "Comment se déroule une séance ?",
+        "answer": "Après installation du matériel nous faisons un point ensemble sur vos attentes et sur vos besoins, sur vos éventuelles blessures ou conditions pathologiques. Vous prenez place en sous-vêtements sur la table et la séance peut démarrer. Selon la durée choisie et en fonction de la zone à masser vous vous allongerez sur le dos ou sur le ventre. Vous serez prévenu quelques minutes avant la fin de la séance que le massage se termine bientôt."
+      },
+      {
+        "id": "Two",
+        "question": "Quels conseils pour une séance efficace ?",
+        "answer": "Etre reposé, si possible l'estomac léger, pas de prise d'alcool ou de drogues avant le massage. S'assurer du calme de la pièce où se déroule la séance, éteindre votre téléphone portable. Pour une efficacité optimale il est conseillé de se détendre sans toutefois s'endormir."
+      },
+      {
+        "id": "Three",
+        "question": "Y a-t-il des contre-indications au massage ?",
+        "answer": "Certaines situations nécessitent des précautions ou contre-indiquent le massage : fièvre, infections, certaines pathologies cardiaques, phlébites, fractures récentes, certains cancers en phase active."
+      },
+      {
+        "id": "Four",
+        "question": "Quelle est la durée maximale d'un massage ?",
+        "answer": "1h30, afin de vous garantir une qualité optimale du massage."
+      },
+      {
+        "id": "Five",
+        "question": "Pourquoi choisir un massage à domicile à Courchevel plutôt qu'un massage en spa ?",
+        "answer": "Un massage à domicile à Courchevel vous offre confort et intimité : pas de déplacement, pas d'attente. Le massage s'adapte à vous, dans votre environnement."
+      },
+      {
+        "id": "Six",
+        "question": "Proposez-vous des massages personnalisés selon mes besoins ?",
+        "answer": "Bien sûr. J'adapte la durée, l'intensité et les techniques utilisées (tuina, deep tissue, massage crânien, réflexologie) afin de vous procurer le massage qui correspond le mieux à vos attentes."
+      },
+      {
+        "id": "Seven",
+        "question": "Pouvez-vous adapter un massage à une douleur ou à une zone ciblée ?",
+        "answer": "Oui. Que vous souhaitiez soulager vos jambes après le ski, détendre le dos, ou relâcher les tensions du cou, je propose des massages ciblés et personnalisés, adaptés à votre condition et à vos préférences."
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "EssensMassage - 2025 -",
+    "legalModal": "Mentions légales",
+    "legalTitle": "Mentions légales & confidentialité",
+    "legalContent": {
+      "business": "EssensMassage — Pascal Piallat",
+      "siret": "SIRET : 820 022 945 00027",
+      "email": "E-mail : <a href=\"mailto:rdv@essensmassage.fr\">rdv@essensmassage.fr</a>",
+      "hosting": "Hébergeur : LWS – 10 rue Penthièvre, 75008 Paris",
+      "phone": "Téléphone : +33 1 77 62 30 03",
+      "privacy": "Ce site ne collecte aucune donnée personnelle. Des cookies anonymisés de mesure d'audience peuvent être utilisés par Google Analytics 4 <strong>uniquement après consentement explicite</strong> via le gestionnaire de cookies TarteAuCitron (petit icone C en bas à droite).<br /><br />Vous pouvez à tout moment modifier vos choix en cliquant sur l'icone.",
+      "lastUpdate": "Dernière mise à jour : octobre 2025"
+    }
+  }
+}

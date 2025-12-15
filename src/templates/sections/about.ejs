@@ -1,0 +1,42 @@
+<section
+  id="<%= lang === 'fr' ? 'parcours' : 'about' %>"
+  class="py-5 min-vh-100 d-flex align-items-center bg-dark bg-opacity-25"
+>
+  <div class="container px-4 py-5">
+    <h2 class="pb-2 text-white text-center"><%= t.about.heading %></h2>
+    <div
+      class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5 justify-content-center"
+    >
+      <div class="col">
+        <div
+          class="card h-100 overflow-hidden text-bg-light rounded-4 p-5"
+        >
+          <div class="d-flex flex-column h-100 text-white">
+            <div class="text-center py-5">
+              <img
+                src="<%= assetPath %>/src/assets/images/biopic200x200.webp"
+                class="rounded-4"
+                alt="<%= lang === 'fr' ? 'portrait' : 'biopic' %>"
+              />
+            </div>
+            <h3 class="card-header text-center" aria-label="<%= lang === 'fr' ? 'Mon parcours' : 'Studies' %>"></h3>
+            <div class="card-body">
+              <p class="card-text">
+                <%= t.about.bio %>
+              </p>
+              <h3 class="text-center pt-5 mb-4"><%= t.about.educationTitle %></h3>
+              <% t.about.education.forEach((edu, index) => { %>
+                <p>
+                  <strong><%= edu.year %>:</strong> <%-  edu.description %>
+                </p>
+                <% if (index < t.about.education.length - 1) { %>
+                  <hr />
+                <% } %>
+              <% }); %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

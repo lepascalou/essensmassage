@@ -4,10 +4,13 @@
   "description": "EssensMassage - Professional massage services website",
   "type": "module",
   "scripts": {
-    "build": "npm run build:css && npm run build:js",
+    "build": "npm run build:html && npm run build:css && npm run build:js",
+    "build:html": "node scripts/build-html.js",
     "build:css": "cleancss -o src/css/bootstrap.purged.last.min.css src/css/bootstrap.purged.last.css",
     "build:js": "esbuild src/js/custom.js --outfile=src/js/custom.min.js --minify",
-    "dev": "npm run watch:css & npm run watch:js",
+    "dev": "npm run build:html && npm run watch",
+    "watch": "npm run watch:html & npm run watch:css & npm run watch:js",
+    "watch:html": "chokidar 'src/templates/**/*.{ejs,json}' -c 'npm run build:html'",
     "watch:css": "chokidar 'src/css/**/*.css' -c 'npm run build:css'",
     "watch:js": "chokidar 'src/js/**/*.js' -c 'npm run build:js'",
     "format": "prettier --write index.html en/index.html src/**/*.css src/**/*.js",
@@ -24,6 +27,7 @@
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
     "clean-css-cli": "^5.6.3",
+    "ejs": "^3.1.10",
     "esbuild": "^0.21.0",
     "prettier": "^3.0.0",
     "rimraf": "^6.1.2"

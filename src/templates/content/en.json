@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "infos": "Informations",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "otherLang": "Fr"
+  },
+  "meta": {
+    "title": "Your personal expert in Tuina, sports, and relaxing home massages.",
+    "description": "Pascal Piallat, experienced massage therapist in Courchevel and Lasalle: Tuina, sports, after-ski or relaxing massages. Book now!",
+    "ogTitle": "Essensmassage, expert in Tuina, sports, and relaxing massages",
+    "ogDescription": "Pascal Piallat, experienced massage therapist in Courchevel: Tuina massages, sports massages, after-ski massages or relaxing massages. Book now!"
+  },
+  "schema": {
+    "description": "Pascal Piallat, experienced massage therapist in Courchevel and Lasalle: Tuina, sports, after-ski or relaxing massages. Book now!",
+    "slogan": "Touch of Excellence – EssensMassage",
+    "catalogName": "Massages and Treatments",
+    "serviceNames": {
+      "tuina": "Tuina Massage",
+      "sports": "Sports Massage",
+      "relaxing": "Relaxing Massage"
+    },
+    "serviceDescriptions": {
+      "tuina": "A practice derived from traditional Chinese medicine, combining pressure, stretching, friction, and mobilization techniques. Effectively treats tension, pain, and energy imbalances.",
+      "sports": "Suitable for people practicing sports. Improves recovery, relieves heaviness, and prevents injuries using deep and dynamic massage techniques.",
+      "relaxing": "A moment of pure relaxation. Gentle and soothing movements, firm and deep, to restore serenity and body/mind balance."
+    },
+    "inLanguage": "en"
+  },
+  "hero": {
+    "title": "EssensMassage",
+    "subtitle": "Touch of excellence",
+    "ariaLabel": "Go to services",
+    "ctaHash": "#services"
+  },
+  "services": {
+    "heading": "Massages",
+    "tuina": {
+      "title": "Tuina",
+      "description": "Originating from Traditional Chinese Medicine, Tuina is a therapeutic massage combining pressure, stretching, friction, and mobilization. It stimulates the flow of energy, relieves blockages, and restores harmony between body and mind",
+      "cta": "Book now"
+    },
+    "sports": {
+      "title": "Sports",
+      "description": "Designed for active individuals, this treatment helps speed up recovery, ease muscular tension, and prevent injuries. Whether you are an athlete or simply physically active, sports massage supports your body in performing at its best.",
+      "cta": "Book now"
+    },
+    "relaxing": {
+      "title": "Relaxing",
+      "description": "Gentle, soothing movements to release stress, restore serenity, and bring you back to balance. An invitation to let go, slow down, and reconnect with yourself.",
+      "cta": "Book now"
+    }
+  },
+  "about": {
+    "heading": "About me",
+    "bio": "The desire to massage and practice healing arts was born in 2004 during a trip overseas. Over the years, I have developed experience based on listening, presence, and precision. My practice has been refined through contact with qualified teachers and a large and varied clientele.",
+    "educationTitle": "Studies",
+    "education": [
+      {
+        "year": "2004",
+        "description": "Reiki (2nd level) with <a href=\"https://www.isabellelaroche.com/\">Isabelle Laroche</a> in Calvisson (Gard)"
+      },
+      {
+        "year": "2005 - 2008",
+        "description": "reflexology, magnetism and self-development therapy in Moissac (Tarn)"
+      },
+      {
+        "year": "2008",
+        "description": "meditation, yoga and ayurveda at <a href=\"https://www.phoolchattiyoga.com/\">Rishikesh</a> and <a href=\"https://amma.org/groups-centres/amritapuri/\">Amritapuri</a>, India"
+      },
+      {
+        "year": "2009 - 2011",
+        "description": "certified EssentialTouch practitioner (more than 900 hours of pratice) with <a href=\"https://terapidervirker.dk/\"> Kasha Hansen</a> in Copenhaguen (Danmark)"
+      },
+      {
+        "year": "2014 - 2019",
+        "description": "chinese medicine studies at institut <a href=\"https://liangshen.org/\">Liang Shen</a> in Geneva. Certified Tuina practitioner in 2017"
+      },
+      {
+        "year": "2024 - 2025",
+        "description": "introduction to chamanism with <a href=\"https://www.academiedemeditation.com/\">Cendrine Escallier</a> (Montpellier) and <a href=\"https://www.yakoruna.com/\">Rachel Willay</a> (Iquitos, Peru)"
+      }
+    ]
+  },
+  "infos": {
+    "heading": "Practical information",
+    "location": {
+      "ariaLabel": "Massage Location",
+      "items": [
+        "Winter season : Courchevel (73)",
+        "Rest of the year : Lasalle (30)"
+      ]
+    },
+    "details": {
+      "ariaLabel": "Oil and duration of massage",
+      "items": [
+        "Organic almond oil or arnica massage oil are used during treatments",
+        "Duration : 30, 45, or 60 minutes"
+      ]
+    },
+    "hours": {
+      "ariaLabel": "Opening hours for massage",
+      "text": "Everyday from 10 am to 8 pm, by reservation only"
+    }
+  },
+  "contact": {
+    "heading": "Appointments",
+    "ariaLabel": "Book a massage",
+    "name": "Pascal Piallat",
+    "phone": "06 52 32 08 01",
+    "email": "rdv@essensmassage.fr",
+    "mapEmbed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44823.26876761229!2d6.549931788006789!3d45.40017781631377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4789798f434b9715%3A0x1b717b179072a046!2sEssensMassage!5e0!3m2!1sfr!2sfr!4v1759524214330!5m2!1sfr!2sfr\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\" title=\"GMapsEmbed\"></iframe>"
+  },
+  "faq": {
+    "heading": "Questions",
+    "questions": [
+      {
+        "id": "One",
+        "question": "How does a session proceed?",
+        "answer": "After setting up the equipment, we'll discuss your expectations and needs together, as well as any injuries or medical conditions you may have. You'll lie down on the table in your underwear and the session can begin. Depending on the duration chosen and the area to be massaged, you'll lie on your back or stomach. You'll be notified a few minutes before the end of the session that the massage is coming to a close."
+      },
+      {
+        "id": "Two",
+        "question": "How can I make the most of my session?",
+        "answer": "Be well-rested, preferably on a light stomach, with no alcohol or drugs before the massage. Ensure the room where the session takes place is quiet, and turn off your mobile phone. For optimal effectiveness, it is recommended to relax without falling asleep."
+      },
+      {
+        "id": "Three",
+        "question": "Are there any contraindications to massage?",
+        "answer": "Certain situations require precautions or contraindicate massage: fever, infections, certain cardiac conditions, phlebitis, recent fractures, certain cancers in active phase."
+      },
+      {
+        "id": "Four",
+        "question": "What is the maximum duration of a massage?",
+        "answer": "1h30, to ensure you receive the highest quality treatment."
+      },
+      {
+        "id": "Five",
+        "question": "Why choose an in-home massage in Courchevel rather than a spa massage?",
+        "answer": "An in-home massage in Courchevel offers you comfort and privacy: no travel, no waiting. The massage adapts to you, in your own environment."
+      },
+      {
+        "id": "Six",
+        "question": "Do you offer personalized massages based on my needs?",
+        "answer": "Of course. I adjust the duration, intensity, and techniques used (Tuina, deep tissue, cranial massage, reflexology) to provide the treatment that best suits your expectations."
+      },
+      {
+        "id": "Seven",
+        "question": "Can you tailor a massage to relieve pain or focus on a specific area?",
+        "answer": "Yes. Whether you want to ease your legs after skiing, release tension in your back, or relax your neck, I offer targeted, personalized massages adapted to your condition and preferences."
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "EssensMassage - 2025 -",
+    "legalModal": "Legal Notice",
+    "legalTitle": "Legal Notice & Privacy",
+    "legalContent": {
+      "business": "EssensMassage — Pascal Piallat",
+      "siret": "SIRET : 820 022 945 00027",
+      "email": "Email : <a href=\"mailto:rdv@essensmassage.fr\">rdv@essensmassage.fr</a>",
+      "hosting": "Hosting : LWS – 10 rue Penthièvre, 75008 Paris",
+      "phone": "Phone : +33 1 77 62 30 03",
+      "privacy": "This website does not collect any personal data. Anonymous audience measurement cookies may be used by Google Analytics 4 <strong>only after explicit consent</strong> via the TarteAuCitron cookie manager (small \"C\" icon at the bottom right).<br /><br />You can change or withdraw your consent at any time by clicking on this icon.",
+      "lastUpdate": "Last update : october 2025"
+    }
+  }
+}

@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="<%= lang %>">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="<%= assetPath %>/src/tarteaucitron/tarteaucitron.min.js">
+      ;
+    </script>
+    <script type="text/javascript">
+      tarteaucitron.init({
+        privacyUrl: "",
+        bodyPosition: "top",
+        hashtag: "#tarteaucitron",
+        cookieName: "tarteaucitron",
+        orientation: "bottom",
+        groupServices: !1,
+        showDetailsOnClick: !0,
+        serviceDefaultState: "wait",
+        showAlertSmall: !1,
+        cookieslist: !1,
+        cookieslistEmbed: !1,
+        closePopup: !0,
+        showIcon: !0,
+        iconSrc: "<%= assetPath %>/src/assets/icons/c-circle.svg",
+        iconPosition: "BottomRight",
+        adblocker: !1,
+        DenyAllCta: !0,
+        AcceptAllCta: !0,
+        highPrivacy: !0,
+        alwaysNeedConsent: !1,
+        handleBrowserDNTRequest: !1,
+        removeCredit: !1,
+        moreInfoLink: !0,
+        useExternalCss: !1,
+        useExternalJs: !1,
+        readmoreLink: "",
+        mandatory: !1,
+        mandatoryCta: !1,
+        googleConsentMode: !0,
+        bingConsentMode: !1,
+        softConsentMode: !1,
+        dataLayer: !1,
+        serverSide: !1,
+        partnersList: !0,
+      });
+    </script>
+    <script>
+      ((tarteaucitron.user.gtagUa = "G-NEST0W5PSV"),
+        (tarteaucitron.user.gtagMore = function () {}),
+        (tarteaucitron.job = tarteaucitron.job || []).push("gtag"));
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "HealthAndBeautyBusiness",
+            "@id": "https://essensmassage.fr<%= lang === 'en' ? '/en/' : '/' %>#business",
+            "name": "EssensMassage",
+            "image": "https://essensmassage.fr/logo50x50.png",
+            "url": "https://essensmassage.fr<%= lang === 'en' ? '/en/' : '/' %>",
+            "logo": "https://essensmassage.fr/logo50x50.png",
+            "description": "<%= t.schema.description %>",
+            "slogan": "<%= t.schema.slogan %>",
+            "telephone": "+33 6 52 32 08 01",
+            "email": "rdv@essensmassage.fr",
+            "priceRange": "€€",
+            "founder": { "@type": "Person", "name": "Pascal Piallat" },
+            "address": [
+              {
+                "@type": "PostalAddress",
+                "addressLocality": "Lasalle",
+                "addressRegion": "Occitanie",
+                "postalCode": "30460",
+                "addressCountry": "FR"
+              },
+              {
+                "@type": "PostalAddress",
+                "addressLocality": "Courchevel",
+                "addressRegion": "Auvergne-Rhône-Alpes",
+                "postalCode": "73120",
+                "addressCountry": "FR"
+              }
+            ],
+            "areaServed": [
+              { "@type": "Place", "name": "Courchevel" },
+              { "@type": "Place", "name": "Lasalle" }
+            ],
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "opens": "10:00",
+                "closes": "20:00"
+              }
+            ],
+            "sameAs": [
+              "https://www.google.com/maps/place/EssensMassage",
+              "https://www.instagram.com/essensmassage",
+              "https://www.facebook.com/essensmassage"
+            ],
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "<%= t.schema.catalogName %>",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "<%= t.schema.serviceNames.tuina %>",
+                    "description": "<%= t.schema.serviceDescriptions.tuina %>"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "<%= t.schema.serviceNames.sports %>",
+                    "description": "<%= t.schema.serviceDescriptions.sports %>"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "<%= t.schema.serviceNames.relaxing %>",
+                    "description": "<%= t.schema.serviceDescriptions.relaxing %>"
+                  }
+                }
+              ]
+            },
+            "inLanguage": "<%= t.schema.inLanguage %>"
+          }
+        ]
+      }
+    </script>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="tdm-reservation" content="1" />
+    <meta
+      name="description"
+      content="<%= t.meta.description %>"
+    />
+    <meta property="og:url" content="https://essensmassage.fr<%= lang === 'en' ? '/en/' : '/' %>" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="<%= t.meta.ogTitle %>"
+    />
+    <meta
+      property="og:description"
+      content="<%= t.meta.ogDescription %>"
+    />
+    <meta
+      property="og:image"
+      content="https://opengraph.b-cdn.net/production/images/e5fda67b-2aee-44aa-9e46-fdc1d3273308.png?token=YI3xAFtX_KdSNHs7WVOHMpbXYdDGrHmAPK25t8jD1h4&height=630&width=1200&expires=33293021029"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="essensmassage.fr" />
+    <meta property="twitter:url" content="https://essensmassage.fr<%= lang === 'en' ? '/en/' : '/' %>" />
+    <meta
+      name="twitter:title"
+      content="<%= t.meta.ogTitle %>"
+    />
+    <meta
+      name="twitter:description"
+      content="<%= t.meta.ogDescription %>"
+    />
+    <meta
+      name="twitter:image"
+      content="https://opengraph.b-cdn.net/production/images/e5fda67b-2aee-44aa-9e46-fdc1d3273308.png?token=YI3xAFtX_KdSNHs7WVOHMpbXYdDGrHmAPK25t8jD1h4&height=630&width=1200&expires=33293021029"
+    />
+    <% if (lang === 'fr') { %>
+      <link rel="canonical" href="https://essensmassage.fr/" />
+      <link rel="alternate" href="https://essensmassage.fr/" hreflang="fr" />
+      <link rel="alternate" href="https://essensmassage.fr/en/" hreflang="en" />
+      <link rel="alternate" href="https://essensmassage.fr/" hreflang="x-default" />
+    <% } else { %>
+      <link rel="canonical" href="https://essensmassage.fr/en/" />
+      <link rel="alternate" href="https://essensmassage.fr/" hreflang="fr" />
+      <link rel="alternate" href="https://essensmassage.fr/en/" hreflang="en" />
+      <link rel="alternate" href="https://essensmassage.fr/" hreflang="x-default" />
+    <% } %>
+    <title><%= t.meta.title %></title>
+    <link href="<%= assetPath %>/src/css/bootstrap.purged.last.min.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      href="<%= assetPath %>/src/assets/icons/favicon-light.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      href="<%= assetPath %>/src/assets/icons/favicon-light.ico"
+      type="image/x-icon"
+      media="(prefers-color-scheme: light)"
+    />
+    <link
+      rel="icon"
+      href="<%= assetPath %>/src/assets/icons/favicon-dark.ico"
+      type="image/x-icon"
+      media="(prefers-color-scheme: dark)"
+    />
+  </head>
+  <body>
+    <%- include('sections/navbar', { t, lang, assetPath }) %>
+    <div
+      class="overflow-y:scroll;"
+      data-bs-spy="scroll"
+      data-bs-target=".navbar"
+    >
+      <%- include('sections/hero', { t, assetPath }) %>
+      <%- include('sections/services', { t, assetPath }) %>
+      <%- include('sections/about', { t, assetPath }) %>
+      <%- include('sections/infos', { t, assetPath }) %>
+      <%- include('sections/contact', { t, assetPath }) %>
+      <%- include('sections/faq', { t, assetPath }) %>
+    </div>
+    <%- include('sections/footer', { t, lang, assetPath }) %>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+      defer
+    >
+      ;
+    </script>
+    <script src="<%= assetPath %>/src/js/custom.min.js" defer>
+      ;
+    </script>
+  </body>
+</html>

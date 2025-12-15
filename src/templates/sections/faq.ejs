@@ -1,0 +1,47 @@
+<section
+  id="faq"
+  class="py-5 min-vh-100 d-flex align-items-center bg-dark bg-opacity-25"
+>
+  <div class="container px-4 py-5 text-white">
+    <h2 class="pb-2 text-center"><%= t.faq.heading %></h2>
+    <div
+      class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5 justify-content-center"
+    >
+      <div class="col">
+        <div class="card h-100 overflow-hidden text-bg-light rounded-4">
+          <div class="d-flex flex-column h-100 p-3 text-white">
+            <div class="card-body">
+              <div class="accordion" id="accordionQuestion">
+                <% t.faq.questions.forEach((q) => { %>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button<%= q.id !== 'One' ? ' collapsed' : '' %>"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse<%= q.id %>"
+                        aria-expanded="<%= q.id === 'One' ? 'true' : 'false' %>"
+                        aria-controls="collapse<%= q.id %>"
+                      >
+                        <%= q.question %>
+                      </button>
+                    </h2>
+                    <div
+                      id="collapse<%= q.id %>"
+                      class="accordion-collapse collapse<%= q.id === 'One' ? ' show' : '' %>"
+                      data-bs-parent="#accordionQuestion"
+                    >
+                      <div class="accordion-body">
+                        <%= q.answer %>
+                      </div>
+                    </div>
+                  </div>
+                <% }); %>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
