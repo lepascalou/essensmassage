@@ -10,7 +10,8 @@
     "dev": "npm run watch:css & npm run watch:js",
     "watch:css": "chokidar 'src/css/**/*.css' -c 'npm run build:css'",
     "watch:js": "chokidar 'src/js/**/*.js' -c 'npm run build:js'",
-    "format": "prettier --write index.html en/index.html src/**/*.css src/**/*.js"
+    "format": "prettier --write index.html en/index.html src/**/*.css src/**/*.js",
+    "prod": "npm run build && node scripts/build-prod.js"
   },
   "keywords": ["massage", "tuina", "relaxation"],
   "author": "Pascal Piallat",
